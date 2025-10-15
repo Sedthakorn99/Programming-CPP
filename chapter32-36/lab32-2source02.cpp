@@ -1,7 +1,7 @@
 #include "1mylibrary.h"
-#include <iostream>
 
-void myfunction()
+int main()
 {
-    std::cout << "Hello World from multiple files.\n";
+    myfunction();
+    return 0;
 }
